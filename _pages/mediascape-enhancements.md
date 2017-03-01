@@ -49,4 +49,4 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[scormcloud.training:mediascapeEnhancementsNAEN5aced466-dd13-4a88-bb9b-1db82c39959b]
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_code admin_label="Code"][scormcloud.training:mediascapeEnhancementsNAEN5aced466-dd13-4a88-bb9b-1db82c39959b][/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section]
