@@ -49,4 +49,4 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-&lt;iframe src="https://steelcase.clara.io/embed/1613b124-6f9f-48ca-a2c5-52e40db046aa?renderer=webgl" width="800" height="600" allowfullscreen&gt;&lt;/iframe&gt;
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_code admin_label="Code"]&lt;iframe src="https://steelcase.clara.io/embed/1613b124-6f9f-48ca-a2c5-52e40db046aa?renderer=webgl" width="800" height="600" allowfullscreen&gt;&lt;/iframe&gt;[/et_pb_code][/et_pb_column][et_pb_column type="4_4"][/et_pb_column][/et_pb_row][/et_pb_section]
