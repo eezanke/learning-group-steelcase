@@ -56,7 +56,7 @@ This video demonstrates how to deliver a message at the category level and how i
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video (as Text)" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<div style="position:relative;"><div style="width:36px;height:36px;position:absolute;left:25%;top:25%;font-size:36px;color:#ffffff;content:\&#x49;"></div><video poster="http://newlearning.steelcase.com/product/wp-content/uploads/sites/3/2016/12/header-b-free-na.jpg" controls="controls" width="640" height="360">
+<div style="position:relative;"><div style="width:36px;height:36px;position:absolute;left:25%;top:25%;font-family: 'ETmodules';font-size:36px;color:#ffffff;content: "&#xe04e;";"></div><video poster="http://newlearning.steelcase.com/product/wp-content/uploads/sites/3/2016/12/header-b-free-na.jpg" controls="controls" width="640" height="360">
 <source type="video/mp4" src="http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4">
 </video></div>
 
