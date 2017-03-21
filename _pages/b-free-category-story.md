@@ -60,6 +60,7 @@ eg-lightbox-iframe:
 <!--<video controls="">
 <source type="video/mp4" src="http://newlearning.steelcase.com/emea-en/wp-content/uploads/Seating-Model-Sales-Presentation.mp4">
 </video>-->
-[su_video url="http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4" width="640" height="360"]
+<div style="width:80%;height:auto;">
+[su_video url="http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4" width="100%" height="auto"]</div>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
