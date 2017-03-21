@@ -54,8 +54,11 @@ eg-lightbox-iframe:
 <h1>Seating Category Story</h1>
 This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.
 
-[/et_pb_text][et_pb_video admin_label="Video" src="http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4"]
-
-
-
-[/et_pb_video][/et_pb_column][/et_pb_row][/et_pb_section]
+[/et_pb_text][et_pb_code admin_label="Code"]&lt;div id=&quot;myElement&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/JavaScript&quot;&gt;
+var playerInstance = jwplayer(&quot;myElement&quot;);
+playerInstance.setup({
+    file: &quot;http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4&quot;,
+    
+});
+&lt;/script&gt;[/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section]
