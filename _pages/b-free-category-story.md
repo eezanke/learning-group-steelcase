@@ -56,15 +56,7 @@ This video demonstrates how to deliver a message at the category level and how i
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video (as Text)" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<div id="myDiv">This text will be replaced with a player.</div>
-<script>
-jwplayer("myDiv").setup({
-    "file": "http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4",
-    "image": "",
-    "height": 360,
-    "width": 640
-});
-</script>
+<script src="//content.jwplatform.com/players/j4ejWWIQ-SY4QCi5D.js"></script>
 
 <!--<video controls="controls" width="640" height="360">
 <source type="video/mp4" src="http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4">
