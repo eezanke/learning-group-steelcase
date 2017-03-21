@@ -57,7 +57,7 @@ eg-lightbox-iframe:
 
 [/et_pb_text][et_pb_text admin_label="Video" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<video controls="" width="640" height="360">
+<video controls="true" width="640" height="360" onplaying="this.controls=true">
 <source type="video/mp4" src="http://newlearning.steelcase.com/emea-en/wp-content/uploads/Seating-Model-Sales-Presentation.mp4">
 </video>
 
