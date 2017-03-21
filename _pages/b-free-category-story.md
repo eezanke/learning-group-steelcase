@@ -1,6 +1,6 @@
 ---
 ID: 117100
-post_title: B-Free Category Story
+post_title: Seating Category Story
 author: Eric Zanke
 post_date: 2017-02-02 13:57:34
 post_excerpt: ""
@@ -49,7 +49,6 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-<h1>Seating Category Story</h1>
 <p>This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.</p>
 <p></p>
 <div id="myElement"></div>
