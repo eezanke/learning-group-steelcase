@@ -6,7 +6,7 @@ post_date: 2017-03-21 17:13:05
 post_excerpt: ""
 layout: page
 permalink: >
-  http://newlearning.steelcase.com/product/b-free-product-design-story-no-nav/
+  http://newlearning.steelcase.com/product/b-free-product-design-story-nn-2/
 published: true
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
