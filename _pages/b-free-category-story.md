@@ -49,13 +49,13 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-<p>This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.</p>
-<p></p>
-<code><div id="myElement"></div>
-<script type="text/JavaScript">
-var playerInstance = jwplayer("myElement");
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_code admin_label="Code"]&lt;h1&gt;Seating Category Story&lt;/h1&gt;
+&lt;p&gt;This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.&lt;/p&gt;
+&lt;div id=&quot;myElement&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/JavaScript&quot;&gt;
+var playerInstance = jwplayer(&quot;myElement&quot;);
 playerInstance.setup({
-    file: "http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4",
+    file: &quot;http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4&quot;,
     
 });
-</script></code>
+&lt;/script&gt;[/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section]
