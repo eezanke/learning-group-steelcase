@@ -49,13 +49,9 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-
 <h1>Seating Category Story</h1>
-This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.
-
-[/et_pb_text][et_pb_text admin_label="JW Player (Video)" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-
+<p>This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.</p>
+<p></p>
 <div id="myElement"></div>
 <script type="text/JavaScript">
 var playerInstance = jwplayer("myElement");
@@ -64,5 +60,3 @@ playerInstance.setup({
     
 });
 </script>
-
-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
