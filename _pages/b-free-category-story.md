@@ -51,11 +51,11 @@ eg-lightbox-iframe:
 ---
 <p>This video demonstrates how to deliver a message at the category level and how it solves Workplace Challenges and supports the Resilient Workplace.</p>
 <p></p>
-<div id="myElement"></div>
+<code><div id="myElement"></div>
 <script type="text/JavaScript">
 var playerInstance = jwplayer("myElement");
 playerInstance.setup({
     file: "http://newlearning.steelcase.com/product/wp-content/uploads/Seating-Model-Sales-Presentation.mp4",
     
 });
-</script>
+</script></code>
