@@ -49,7 +49,11 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-<meta charset="UTF-8">
+<code>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
   <title>CLARA-OVERLAY-MODEL</title>
 
 
@@ -66,9 +70,9 @@ eg-lightbox-iframe:
 
  
  
+</head>
 
-
-
+<body>
   <div id="content">
   <div id="clara-embed" style="width: 600px; height: 400px;"></div>
 </div>
@@ -127,3 +131,7 @@ function showTextForCamera(name) {
   textEl.innerText = content[name] || '';
 }
 </script>
+
+</body>
+</html>
+</code>
