@@ -125,15 +125,20 @@ eg-lightbox-iframe:
 </head>
 
 <body>
-<div id="wrapper">
-	<div id="content">
-	  <div id="clara-embed"></div>
-	</div>
-
-	<div id="unique">
-	  <p id="text"></p>
-	</div>
-</div>
+	<table cellpadding="10" cellspacing="0" border="0" id="clara">
+		<tr>
+			<td class="cell" width="60%">
+				<div id="content">
+				  <div id="clara-embed"></div>
+				</div>
+			</td>
+			<td class="cell">
+				<div id="unique">
+				  <p id="text"></p>
+				</div>
+			</td>
+		</tr>
+	</table>
 
 <script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
 
