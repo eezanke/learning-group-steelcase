@@ -62,10 +62,62 @@ eg-lightbox-iframe:
 
   <style type="text/css">
   	
+  	#wrapper{
+		width:100%;
+		margin:0 auto;
+		display:block;
+  	}
+
+  	#clara-embed{
+  		width:600px;
+  		height:400px;
+  		margin:0 auto;
+  		
+  	}
+  	
+  	#content, #unique {
+  		display:inline-block;
+  		width:45%;
+  		background-color:pink;
+  	}
+
   	#unique {
 		visibility: hidden; 
+		min-height:100%;
+		background-color:#ffffff;
+		padding:2%;
 		}
+	p{
+		font-family:Roboto, Arial, Helvetica, sans-serif;
+		font-size:16px!important;
+	}
 
+	button{
+		font-size:16px!important;
+		padding:1.5% 2%;
+		margin: 0 1% 1% 0;
+		border:1px solid #ededed;
+		background-color:#666;
+		color:#ffffff;
+
+		}
+	button:hover{
+		background-color:#333;
+	}
+	button:focus, button:active{
+		outline:0;
+	}
+
+	@media screen and (max-width: 640px) { 
+		/*#content, #unique {
+  		display:block!important;
+  		width:100%!important;
+	  	}*/
+
+
+
+	}
+	
   </style>
   
 
@@ -74,19 +126,22 @@ eg-lightbox-iframe:
 </head>
 
 <body>
-  <div id="content">
-  <div id="clara-embed" style="width: 600px; height: 400px;"></div>
+<div id="wrapper">
+	<div id="content">
+	  <div id="clara-embed"></div>
+	</div>
+
+	<div id="unique">
+	  <p id="text"></p>
+	</div>
 </div>
 
-<div id="unique">
-  <p id="text"></p>
-</div>
-
-<script src="https://steelcase.clara.io/js/claraplayer.min.js"></script>
+<script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
 
 
  <!-- JS -->
   <script>
+
 const content = {
   'Designed for Wellbeing': 
     'something about Designed for Wellbeing',
@@ -131,8 +186,8 @@ function showTextForCamera(name) {
   textDiv.style.visibility = 'visible';
   textEl.innerText = content[name] || '';
 }
-</script>
 
+</script>
 </body>
 </html>
 
