@@ -49,8 +49,6 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -77,12 +75,13 @@ eg-lightbox-iframe:
   	
   	#content, #unique {
   		display:inline-block;
-  		width:45%;
-  		background-color:pink;
+  		width:60%;
+  		border-right:1px solid #ededed;
   	}
 
   	#unique {
 		visibility: hidden; 
+		width:60%;
 		min-height:100%;
 		background-color:#ffffff;
 		padding:2%;
@@ -190,5 +189,3 @@ function showTextForCamera(name) {
 </script>
 </body>
 </html>
-
-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
