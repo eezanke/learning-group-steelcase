@@ -81,7 +81,7 @@ eg-lightbox-iframe:
 
   	#unique {
 		visibility: hidden; 
-		width:60%;
+		width:30%;
 		min-height:100%;
 		background-color:#ffffff;
 		padding:2%;
