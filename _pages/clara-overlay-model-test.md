@@ -61,7 +61,7 @@ eg-lightbox-iframe:
   <style type="text/css">
   	
   	html{
-  		font-size:150%;
+  		font-size:24px;
   	}
 
   	body{
@@ -103,7 +103,7 @@ eg-lightbox-iframe:
 	#text{
 		
 		font-family:Roboto, Arial, Helvetica, sans-serif;
-		font-size:.75rem;
+		font-size:1.25rem;
 		line-height:150%;
 		width:98%;
 		margin:2% auto 0 auto;
@@ -153,6 +153,10 @@ eg-lightbox-iframe:
 		#content, #unique{
 			display:block!important;
 			width:100%!important;
+
+		}
+		#text{
+			font-size:1.5rem;
 		}
 	}
 	@media screen and (min-width: 480px) { 
