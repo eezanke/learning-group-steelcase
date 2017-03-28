@@ -60,45 +60,67 @@ eg-lightbox-iframe:
 
   <style type="text/css">
   	
-  	#wrapper{
-		width:100%;
-		margin:0 auto;
-		display:block;
+  	html{
+  		font-size:150%;
   	}
 
+  	body{
+  		padding:0!important;
+		margin:0!important;
+  	}
+
+  	#wrapper{
+		width:98%;
+		max-width:1080px;
+		height:auto;
+		margin:0 auto;
+		display:table;
+  	}
+
+  	
   	#clara-embed{
   		width:600px;
   		height:400px;
-  		margin:0 auto;
+  		width: 700px;
+	    width: 100%;
+	    height: 500px;
+	    max-height:auto;
   		
   	}
   	
   	#content, #unique {
-  		display:inline-block;
-  		width:60%;
-  		border-right:1px solid #ededed;
+  		display:table-cell;
+  		width:48%;
+  		
   	}
 
   	#unique {
 		visibility: hidden; 
-		width:30%;
-		min-height:100%;
-		background-color:#ffffff;
-		padding:2%;
+		width:42%;
+		vertical-align:top;
+
 		}
-	p{
+	#text{
+		
 		font-family:Roboto, Arial, Helvetica, sans-serif;
-		font-size:16px!important;
+		font-size:.75rem;
+		line-height:150%;
+		width:98%;
+		margin:2% auto 0 auto;
+	}
+	p{
 	}
 
+
+	input{border:0;}
+
 	button{
-		font-size:16px!important;
-		padding:1.5% 2%;
+		padding:1.8% 2%;
 		margin: 0 1% 1% 0;
-		border:1px solid #ededed;
 		background-color:#666;
 		color:#ffffff;
-
+		border:0;
+		font-size:1.8rem;
 		}
 	button:hover{
 		background-color:#333;
@@ -106,39 +128,62 @@ eg-lightbox-iframe:
 	button:focus, button:active{
 		outline:0;
 	}
-
-	@media screen and (max-width: 640px) { 
-		/*#content, #unique {
-  		display:block!important;
-  		width:100%!important;
-	  	}*/
-
-
+	@media screen and (min-width: 1366px) {
 
 	}
+
+	@media screen and (min-width: 1280px) {
+
+	}
+
+	@media screen and (min-width: 1200px) {
+
+	}
+
+	@media screen and (min-width: 1080px) {
+
+	}
+
+	@media screen and (min-width: 960px) {
+
+	}
+
+
+	@media screen and (min-width: 768px) { 
+		#content, #unique{
+			display:block!important;
+			width:100%!important;
+		}
+	}
+	@media screen and (min-width: 480px) { 
+		#text{
+			font-size:1.5rem;
+		}
+	}
+
+	@media screen and (min-width: 320px) {
+		#text{
+			font-size:1.5rem;
+		}
+	}
+	
+
+	
 	
   </style>
   
-
- 
- 
 </head>
 
 <body>
-	<table cellpadding="10" cellspacing="0" border="0" id="clara">
-		<tr>
-			<td class="cell" width="60%">
-				<div id="content">
-				  <div id="clara-embed"></div>
-				</div>
-			</td>
-			<td class="cell">
-				<div id="unique">
-				  <p id="text"></p>
-				</div>
-			</td>
-		</tr>
-	</table>
+<div id="wrapper">
+	<div id="content">
+	  <div id="clara-embed"></div>
+	</div>
+
+	<div id="unique">
+	  <p id="text"><!-- INSIDE THIS GOES THE DYNAMIC TEXT --></p>
+	</div>
+</div>		
 
 <script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
 
@@ -148,19 +193,26 @@ eg-lightbox-iframe:
 
 const content = {
   'Designed for Wellbeing': 
-    'something about Designed for Wellbeing',
+    'Something about Designed for Wellbeing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+
   'Workplace Wellbeing': 
     'something about Workplace Wellbeing',
+
   'Encouraging Health Postures': 
     'something about Encouraging Health Postures',
+
   'Antimicrobial': 
-    'something about Antimicrobial',
+    'Something about Antimicrobial. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+
   'Collaboration Button': 
     'something about Collaboration Button',
+
   'Variety of Cable Management Options': 
     'something about Variety of Cable Management Options',
+
   'Obstruction Sensing': 
     'something about Obstruction Sensing',
+
   'Health Conscious Environment': 
     'something about Health Conscious Environment',
 };
