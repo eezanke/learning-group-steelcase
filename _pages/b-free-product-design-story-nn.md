@@ -57,7 +57,7 @@ Watch this 2 minute video to see how our Research and Insights led to the design
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video (as Text)" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<video autoplay="autoplay" controls="controls" width="300" height="150">
+<video autoplay="autoplay" controls="controls" width="640" height="360">
 <source type="video/mp4" src="http://newlearning.steelcase.com/product/wp-content/uploads/B-Free-Connect-Collaborate-Concentrate.mp4" />
 </video>
 
