@@ -98,9 +98,7 @@ p{
 	width:620px;
 	max-width:100%;
 	min-height:650px;
-	display:table;
-	/*margin:0 auto;
-	position:relative;*/
+	position:relative;
   	}
 #content > div {
 	position: absolute;
