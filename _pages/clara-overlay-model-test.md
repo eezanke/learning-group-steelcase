@@ -53,6 +53,7 @@ eg-lightbox-iframe:
 <html>
 <head>
   <meta charset="UTF-8">
+  <title>CLARA-OVERLAY-MODEL</title>
 
 <!--FONTS-->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CDroid+Serif:400,700" media="all">
@@ -112,16 +113,16 @@ p{
 
 
 #controls{/* button container */
-	position: absolute;
+	/*position: absolute;
 	top: 420px;
-    left: 0px;
+    left: 0px;*/
     max-width:600px;
 
 }
 #content > div {/* TEXT CONTAINER PER BUTTON */
-  position: absolute;
+  /*position: absolute;
   top: 50px;
-  left: 610px;
+  left: 610px;*/
   visibility: hidden;
 }
 
@@ -173,12 +174,14 @@ input{border:0;}
 <!-- HTML -->
 <div id="wrapper">
 
+	
+	<!-- MODEL -->
 	<div id="player">
 	  <div id="clara-embed"></div>
 	</div>
-	<div id="controls">
-	</div>
 
+
+	<!-- BEGIN CONTENT -->
 	<div id="content">
 	  <div id="wellbeing">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
@@ -260,6 +263,10 @@ input{border:0;}
 	      <li>Milk</li>
 	    </ul>
 	  </div>
+	</div>
+	<!-- END CONTENT -->
+	<!-- BEGIN BUTTONS -->
+	<div id="controls">
 	</div>
 </div><!-- WRAPPER -->
 
