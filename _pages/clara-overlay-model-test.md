@@ -127,7 +127,7 @@ p{
     top: 0px;
     left: 480px;
   }
-  #player, #clara-embed {
+  #player, #clara-embed, #controls {
   	width:480px!important;
   	height:280px!important;
   	}
