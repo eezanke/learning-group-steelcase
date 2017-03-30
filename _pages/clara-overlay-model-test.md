@@ -51,78 +51,104 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Code" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
   <title>CLARA-OVERLAY-MODEL</title>
 
+<!--FONTS-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CDroid+Serif:400,700" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
   <!-- CSS -->
 
   <style type="text/css">
-  	
-  	html{
-  		font-size:16px;
-  	}
 
-  	body{
-  		padding:0!important;
-		margin:0!important;
-  	}
+html{
 
-  	#wrapper{
-		width:98%;
-		max-width:1080px;
-		height:auto;
-		margin:0 auto;
-		display:table;
-  	}
+}
 
-  	
-  	#clara-embed{
-  		width:600px;
-  		height:400px;
-  		width: 700px;
-	    width: 100%;
-	    height: 500px;
-	    max-height:auto;
-  		
-  	}
-  	
-  	#content, #unique {
-  		display:table-cell;
-  		width:48%;
-  		min-height:400px;
-  		
-  	}
+body{
+	padding:0!important;
+	margin:0!important;
+	font-family:Roboto, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:150%;
+	font-weight: 400!important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
 
-  	#unique {
-		visibility: hidden; 
-		width:42%;
-
-		vertical-align:top;
-
-		}
-	#text{
-		
-		font-family:Roboto, Arial, Helvetica, sans-serif;
-		font-size:16px;
-		line-height:150%;
-		width:98%;
-		margin:2% auto 0 auto;
-	}
-	p{
-
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family:Roboto, Arial, Helvetica, sans-serif;
 	}
 
+h5{
+	font-weight:700;
 
-	input{border:0;}
+	}
+p{
+	font-family:Open Sans, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:400;
+	width:95%;
+	}
+
+#wrapper{
+	width:620px;
+	max-width:1080px;
+	height:auto;
+	/*margin:0 auto;
+	position:relative;*/
+  	}
+#player{/* PLAYER CONTAINER */
+	width:600px;
+	height:400px;
+	width: 700px;
+    width: 100%;
+    height: 500px;
+    max-height:auto;
+	/*border-right: 1px solid #333;*/
+  	}
+
+
+#controls{/* button container */
+	position: absolute;
+	top: 420px;
+    left: 0px;
+    max-width:600px;
+
+}
+#content > div {/* TEXT CONTAINER PER BUTTON */
+  position: absolute;
+  top: 50px;
+  left: 610px;
+  visibility: hidden;
+}
+
+@media (max-width: 700px) {/* text goes to bottom */
+  #content > div {
+    top: 500px;
+    left: 0px;
+  }
+}
+
+
+/* INPUTS + BUTTONS */
+
+
+input{border:0;}
 
 	button{
-		padding:1.8% 2%;
+		padding:1.5% 2%;
 		margin: 0 1% 1% 0;
 		background-color:#666;
 		color:#ffffff;
 		border:0;
-		font-size:1.8rem;
+		font-size:1rem;
+		font-weight:700;
 		}
 	button:hover{
 		background-color:#333;
@@ -130,28 +156,11 @@ eg-lightbox-iframe:
 	button:focus, button:active{
 		outline:0;
 	}
-	@media screen and (min-width: 1366px) {
-
-	}
-
-	@media screen and (min-width: 1280px) {
-
-	}
-
-	@media screen and (min-width: 1200px) {
-
-	}
-
-	@media screen and (min-width: 1080px) {
-
-	}
-
-	@media screen and (min-width: 960px) {
-
-	}
 
 
-	@media screen and (min-width: 768px) { 
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) { 
 		#content, #unique{
 			display:block!important;
 			width:100%!important;
@@ -161,71 +170,125 @@ eg-lightbox-iframe:
 			font-size:1.5rem;
 		}
 	}
-	@media screen and (max-width: 480px) { 
-		#text{
-			font-size:1.5rem;
-		}
-	}
 
-	@media screen and (max-width: 320px) {
-		#text{
-			font-size:1.5rem;
-		}
-	}
-	
-
-	
-	
   </style>
-  
 
-
-
+<!-- HTML -->
 <div id="wrapper">
+
+	<div id="player" style="width: 600px; height: 400px;">
+	  <div id="clara-embed" style="width: 600px; height: 400px;"></div>
+	</div>
+	<div id="controls">
+	</div>
+
 	<div id="content">
-	  <div id="clara-embed"></div>
+	  <div id="wellbeing">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <h5>Something about Designed for Wellbeing</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="workplace">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <h5>Something about Designed for Workplace</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="postures">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <h5>Something about Designed for Postures</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="antimicrobial">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <h5>Something about Designed for Antimicrobial</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="collab">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <h5>Something about Designed for Collaboration</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="cables">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />     
+	    <h5>Something about Designed for Cables</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="sensing">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />    
+	    <h5>Something about Designed for Sensing</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="health">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />     
+	    <h5>Something about Designed for Health</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
 	</div>
+</div><!-- WRAPPER -->
 
-	<div id="unique">
-	  <p id="text"><!-- INSIDE THIS GOES THE DYNAMIC TEXT --></p>
-	</div>
-</div>		
 
-<script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
+
 
 
  <!-- JS -->
+
+ <script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
+
   <script>
 
-const content = {
-  'Designed for Wellbeing': 
-    'Something about Designed for Wellbeing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-
-  'Workplace Wellbeing': 
-    'something about Workplace Wellbeing',
-
-  'Encouraging Health Postures': 
-    'something about Encouraging Health Postures',
-
-  'Antimicrobial': 
-    'Something about Antimicrobial. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-
-  'Collaboration Button': 
-    'something about Collaboration Button',
-
-  'Variety of Cable Management Options': 
-    'something about Variety of Cable Management Options',
-
-  'Obstruction Sensing': 
-    'something about Obstruction Sensing',
-
-  'Health Conscious Environment': 
-    'something about Health Conscious Environment',
+const ids = {
+  'Designed for Wellbeing': 'wellbeing',
+  'Workplace Wellbeing': 'workplace',
+  'Encouraging Health Postures': 'postures',
+  'Antimicrobial': 'antimicrobial',
+  'Collaboration': 'collab',
+  'Variety of Cable Management Options': 'cables',
+  'Obstruction Sensing': 'sensing',
+  'Health Conscious Environment': 'health',
 };
 
 const textDiv = document.getElementById('unique');
 const textEl = document.getElementById('text');
-
 
 var clara = claraplayer('clara-embed'); 
 clara.on('loaded', function() { console.log('Clara player is loaded and ready'); }); 
@@ -233,14 +296,21 @@ clara.sceneIO.fetchAndUse("1613b124-6f9f-48ca-a2c5-52e40db046aa");
 clara.on('loaded', () => { 
   const cameras = clara.scene.getAll({type: 'Camera', property: 'name'}); 
   for(let id in cameras) { 
-    console.log(cameras[id]);
     let button = document.createElement('button'); 
     button.innerText = cameras[id]; 
     button.onclick = (ev) => { 
+      var divs = document.getElementById('content').children;
+      for(var i = 0; i < divs.length; i++) {
+        var state = 'hidden';
+        if(divs[i].id === ids[cameras[id]])
+          state = 'visible';
+        divs[i].style.visibility = state;
+      }
+          
       clara.player.animateCameraTo(id, 500); 
       showTextForCamera(cameras[id]);
     }
-    document.getElementById('content').appendChild(button); 
+    document.getElementById('controls').appendChild(button); 
   } 
 });
 
@@ -248,7 +318,15 @@ function showTextForCamera(name) {
   textDiv.style.visibility = 'visible';
   textEl.innerText = content[name] || '';
 }
+  </script>
 
-</script>
+
+
+
+
+
+
+  </body>
+</html>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
