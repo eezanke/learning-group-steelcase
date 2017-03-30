@@ -113,6 +113,7 @@ p{
 #model{
 	max-width:620px;
 	min-height:650px;
+	position:relative;
 }
 #buttons{
 	max-width:620px;
