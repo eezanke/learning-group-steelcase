@@ -112,10 +112,14 @@ p{
 	top: 600px;
 	left: 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   #content > div {
     top: 50px;
     left: 0px;
+  }
+  html{
+  	width:50%;
+  	height:50%;
   }
 }
 
