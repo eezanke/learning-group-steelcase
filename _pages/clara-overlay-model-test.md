@@ -300,7 +300,7 @@ const ids = {
   'Encouraging Health Postures': 'postures',
   'Antimicrobial': 'antimicrobial',
   'Collaboration Button': 'collab',
-  'Cable Management': 'cables',
+  'Variety of Cable Management Options': 'cables',
   'Obstruction Sensing': 'sensing',
   'Health Conscious Environment': 'health',
 };
