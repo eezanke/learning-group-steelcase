@@ -53,7 +53,6 @@ eg-lightbox-iframe:
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>CLARA-OVERLAY-MODEL</title>
 
 <!--FONTS-->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CDroid+Serif:400,700" media="all">
