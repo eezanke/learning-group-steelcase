@@ -110,7 +110,10 @@ p{
 	left: 650px;
 	visibility: hidden;
 }
-
+#model{
+	max-width:620px;
+	min-height:650px;
+}
 #buttons{
 	max-width:620px;
 	min-height:650px;
@@ -120,7 +123,7 @@ p{
 }
 @media (max-width: 1024px) {
   #content > div {
-    top: 50px;
+    top: 0px;
     left: 480px;
   }
   #player, #clara-embed {
@@ -172,16 +175,16 @@ input{border:0;}
 <!-- HTML -->
 <div id="wrapper">
 
-	
+	<div id="Model">
 	<!-- MODEL -->
-	<div id="player">
-	  <div id="clara-embed"></div>
-	</div>
+		<div id="player">
+		  <div id="clara-embed"></div>
+		</div>
 
-	<!-- BEGIN BUTTONS -->
-	<div id="controls">
-	</div>
-
+		<!-- BEGIN BUTTONS -->
+		<div id="controls">
+		</div>
+	</div><!-- Model-->
 	<!-- BEGIN CONTENT -->
 	<div id="content">
 	  <div id="wellbeing">
