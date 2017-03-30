@@ -118,8 +118,8 @@ p{
     left: 0px;
   }
   #player, #clara-embed {
-  	width:480px;
-  	height:280px
+  	width:480px!important;
+  	height:280px!important;
   	}
 }
 
