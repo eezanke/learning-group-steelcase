@@ -100,6 +100,10 @@ p{
 	min-height:650px;
 	position:relative;
   	}
+#player, #clara-embed {
+  	width:600px!important;
+  	height:400px!important;
+  	}
 #content > div {
 	position: absolute;
 	top: 0px;
@@ -168,8 +172,8 @@ input{border:0;}
 
 	
 	<!-- MODEL -->
-	<div id="player" style="width: 600px; height: 400px;">
-	  <div id="clara-embed" style="width: 600px; height: 400px;"></div>
+	<div id="player">
+	  <div id="clara-embed"></div>
 	</div>
 
 	<!-- BEGIN BUTTONS -->
