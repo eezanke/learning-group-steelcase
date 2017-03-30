@@ -117,7 +117,7 @@ p{
 
 #controls{/* button container */
 	position: absolute;
-	top: 420px;
+	top: 450px;
     left: 0px;
     max-width:600px;
 
