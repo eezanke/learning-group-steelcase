@@ -125,11 +125,22 @@ p{
 @media (max-width: 1024px) {
   #content > div {
     top: 0px;
-    left: 480px;
+    left: 500px;
   }
   #player, #clara-embed, #controls {
   	width:480px!important;
   	height:280px!important;
+  	}
+}
+
+@media (max-width: 768px) {
+  #content > div {
+    top: 0px;
+    left: 380px;
+  }
+  #player, #clara-embed, #controls {
+  	width:360px!important;
+  	height:160px!important;
   	}
 }
 
