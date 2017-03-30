@@ -123,6 +123,8 @@ p{
   /*position: absolute;
   top: 50px;
   left: 610px;*/
+  height:650px;
+  overflow:hidden;
   float:right;
   visibility: hidden;
 }
