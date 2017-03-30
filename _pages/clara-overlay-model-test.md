@@ -96,8 +96,9 @@ p{
 
 #wrapper{
 	width:620px;
-	max-width:1080px;
+	max-width:100%;
 	min-height:650px;
+	display:table;
 	/*margin:0 auto;
 	position:relative;*/
   	}
@@ -108,6 +109,9 @@ p{
     width: 100%!important;
     height: 500px!important;
     max-height:auto;
+    display:table-cell;
+    width:600px;
+    max-height:650px;
 	/*border-right: 1px solid #333;*/
   	}
 
@@ -116,9 +120,8 @@ p{
 	/*position: absolute;
 	top: 420px;
     left: 0px;*/
-    display:block;
-    float:left;
-    max-width:600px;
+    display:table-cell;
+    width:600px;
     max-height:650px;
 
 }
@@ -126,16 +129,16 @@ p{
   /*position: absolute;
   top: 50px;
   left: 610px;*/
-  height:650px;
+  display:table-cell;
+  height:480px;
   overflow:hidden;
-  float:right;
   visibility: hidden;
 }
 
 @media (max-width: 700px) {/* text goes to bottom */
   #content > div {
-    top: 500px;
-    left: 0px;
+    /*top: 500px;
+    left: 0px;*/
   }
 }
 
@@ -185,7 +188,7 @@ input{border:0;}
 	<div id="player">
 	  <div id="clara-embed"></div>
 	</div>
-	
+
 	<!-- BEGIN BUTTONS -->
 	<div id="controls">
 	</div>
