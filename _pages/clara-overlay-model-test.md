@@ -95,7 +95,7 @@ p{
 	}
 
 #wrapper{
-	width:620px;
+	min-width:620px;
 	max-width:100%;
 	min-height:650px;
 	position:relative;
@@ -112,6 +112,8 @@ p{
 }
 
 #buttons{
+	max-width:620px;
+	min-height:650px;
 	position: absolute;
 	top: 600px;
 	left: 0;
