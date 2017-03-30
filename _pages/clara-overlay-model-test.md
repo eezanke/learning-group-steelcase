@@ -116,7 +116,10 @@ p{
 	/*position: absolute;
 	top: 420px;
     left: 0px;*/
+    display:block;
+    float:left;
     max-width:600px;
+    max-height:650px;
 
 }
 #content > div {/* TEXT CONTAINER PER BUTTON */
