@@ -119,7 +119,7 @@ p{
 @media (max-width: 1024px) {
   #content > div {
     top: 50px;
-    left: 0px;
+    left: 480px;
   }
   #player, #clara-embed {
   	width:480px!important;
