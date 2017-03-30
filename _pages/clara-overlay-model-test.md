@@ -299,7 +299,7 @@ const ids = {
   'Workplace Wellbeing': 'workplace',
   'Encouraging Health Postures': 'postures',
   'Antimicrobial': 'antimicrobial',
-  'Collaboration': 'collab',
+  'Collaboration Button': 'collab',
   'Cable Management': 'cables',
   'Obstruction Sensing': 'sensing',
   'Health Conscious Environment': 'health',
