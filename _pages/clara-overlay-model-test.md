@@ -99,7 +99,7 @@ p{
 #wrapper{
 	width:620px;
 	max-width:1080px;
-	height:auto;
+	min-height:550px;
 	/*margin:0 auto;
 	position:relative;*/
   	}
