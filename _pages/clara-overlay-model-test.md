@@ -185,7 +185,10 @@ input{border:0;}
 	<div id="player">
 	  <div id="clara-embed"></div>
 	</div>
-
+	
+	<!-- BEGIN BUTTONS -->
+	<div id="controls">
+	</div>
 
 	<!-- BEGIN CONTENT -->
 	<div id="content">
@@ -271,9 +274,7 @@ input{border:0;}
 	  </div>
 	</div>
 	<!-- END CONTENT -->
-	<!-- BEGIN BUTTONS -->
-	<div id="controls">
-	</div>
+	
 </div><!-- WRAPPER -->
 
 
