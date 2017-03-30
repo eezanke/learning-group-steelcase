@@ -117,10 +117,7 @@ p{
     top: 50px;
     left: 0px;
   }
-  #wrapper, #player, #clara-embed {
-  	width:75%!important;
-  	height:100%!important:
-  	}
+  
 }
 
 
