@@ -107,12 +107,12 @@ p{
 	/*margin:0 auto;
 	position:relative;*/
   	}
-#player{/* PLAYER CONTAINER */
-	width:600px;
-	height:400px;
-	width: 700px;
-    width: 100%;
-    height: 500px;
+#player, #clara-embed{/* PLAYER CONTAINER */
+	width:600px!important;
+	height:400px!important;
+	width: 700px!important;
+    width: 100%!important;
+    height: 500px!important;
     max-height:auto;
 	/*border-right: 1px solid #333;*/
   	}
