@@ -110,7 +110,7 @@ p{
 	left: 650px;
 	visibility: hidden;
 }
-#model #controls{
+#model, #controls{
 	max-width:620px;
 	min-height:650px;
 	position:relative;
