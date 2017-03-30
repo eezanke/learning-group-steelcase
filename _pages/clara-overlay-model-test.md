@@ -91,7 +91,6 @@ p{
 	font-family:Open Sans, Arial, Helvetica, sans-serif;
 	font-size:16px;
 	font-weight:400;
-	width:95%;
 	}
 
 #wrapper{
