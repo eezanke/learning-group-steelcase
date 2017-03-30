@@ -102,45 +102,26 @@ p{
 	/*margin:0 auto;
 	position:relative;*/
   	}
-#player, #clara-embed{/* PLAYER CONTAINER */
-	width:600px!important;
-	height:400px!important;
-	width: 700px!important;
-    width: 100%!important;
-    height: 500px!important;
-    max-height:auto;
-    display:table-cell;
-    width:600px;
-    max-height:650px;
-	/*border-right: 1px solid #333;*/
-  	}
-
-
-#controls{/* button container */
-	/*position: absolute;
-	top: 420px;
-    left: 0px;*/
-    display:table-cell;
-    width:600px;
-    max-height:650px;
-
-}
-#content > div {/* TEXT CONTAINER PER BUTTON */
-  /*position: absolute;
-  top: 50px;
-  left: 610px;*/
-  display:table-cell;
-  height:480px;
-  overflow:hidden;
-  visibility: hidden;
+#content > div {
+	position: absolute;
+	top: 0px;
+	left: 650px;
+	visibility: hidden;
 }
 
-@media (max-width: 700px) {/* text goes to bottom */
+#buttons{
+	position: absolute;
+	top: 600px;
+	left: 0;
+}
+@media (max-width: 700px) {
   #content > div {
-    /*top: 500px;
-    left: 0px;*/
+    top: 50px;
+    left: 0px;
   }
 }
+
+
 
 
 /* INPUTS + BUTTONS */
@@ -185,8 +166,8 @@ input{border:0;}
 
 	
 	<!-- MODEL -->
-	<div id="player">
-	  <div id="clara-embed"></div>
+	<div id="player" style="width: 600px; height: 400px;">
+	  <div id="clara-embed" style="width: 600px; height: 400px;"></div>
 	</div>
 
 	<!-- BEGIN BUTTONS -->
