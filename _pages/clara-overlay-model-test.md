@@ -116,7 +116,7 @@ p{
 	top: 600px;
 	left: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #content > div {
     top: 50px;
     left: 0px;
