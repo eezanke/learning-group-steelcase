@@ -51,10 +51,7 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="on"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <title>CLARA-OVERLAY-MODEL</title>
 
 <!--FONTS-->
@@ -201,7 +198,7 @@ input{border:0;}
 	<!-- BEGIN CONTENT -->
 	<div id="content">
 	  <div id="wellbeing">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
 	    <h5>Something about Designed for Wellbeing</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -211,7 +208,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="workplace">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
 	    <h5>Something about Designed for Workplace</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -221,7 +218,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="postures">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
 	    <h5>Something about Designed for Postures</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -231,7 +228,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="antimicrobial">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
 	    <h5>Something about Designed for Antimicrobial</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -241,7 +238,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="collab">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
 	    <h5>Something about Designed for Collaboration</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -251,7 +248,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="cables">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />     
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
 	    <h5>Something about Designed for Cables</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -261,7 +258,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="sensing">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />    
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
 	    <h5>Something about Designed for Sensing</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -271,7 +268,7 @@ input{border:0;}
 	    </ul>
 	  </div>
 	  <div id="health">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />     
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
 	    <h5>Something about Designed for Health</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
@@ -330,6 +327,7 @@ clara.on('loaded', () => {
       showTextForCamera(cameras[id]);
     }
     document.getElementById('controls').appendChild(button); 
+document.getElementByClassName('tools').style.visibility = 'hidden';
   } 
 });
 
@@ -338,14 +336,5 @@ function showTextForCamera(name) {
   textEl.innerText = content[name] || '';
 }
   </script>
-
-
-
-
-
-
-
-  </body>
-</html>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
