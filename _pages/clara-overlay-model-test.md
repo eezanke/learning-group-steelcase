@@ -70,7 +70,7 @@ html{
 body{
 	padding:0!important;
 	margin:0!important;
-	font-family:Roboto, Arial, Helvetica, sans-serif;
+	font-family:Open Sans, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	line-height:150%;
 	font-weight: 400!important;
@@ -88,7 +88,6 @@ h5{
 
 	}
 p{
-	font-family:Open Sans, Arial, Helvetica, sans-serif;
 	font-size:16px;
 	font-weight:400;
 	width:95%;
