@@ -327,7 +327,7 @@ clara.on('loaded', () => {
       showTextForCamera(cameras[id]);
     }
     document.getElementById('controls').appendChild(button); 
-document.getElementByClassName('tools').style.visibility = 'hidden';
+
   } 
 });
 
