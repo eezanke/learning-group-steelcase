@@ -342,7 +342,11 @@ clara.on('loaded', () => {
     document.getElementById('controls').appendChild(button); 
 
   } 
- clara.player.hideTool('orbit, pan, zoom, home');
+clara.player.hideTool('orbit');
+clara.player.hideTool('pan');
+clara.player.hideTool('zoom');
+clara.player.hideTool('home');
+clara.player.hideTool('fullscreen');
 });
 
 function showTextForCamera(name) {
