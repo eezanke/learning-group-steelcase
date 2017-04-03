@@ -76,6 +76,7 @@ body{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
+
 }
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -100,8 +101,13 @@ p{
   	}
 #player, #clara-embed {
   	width:600px!important;
-  	height:400px!important;
+  	height:480px!important;
+
   	}
+#player {
+	border: 1px solid #ededed;
+	margin-bottom:-2px;
+}
 #content > div {
 	position: absolute;
 	top: 0px;
@@ -113,13 +119,11 @@ p{
 	min-height:650px;
 	position:relative;
 }
-#buttons{
-	max-width:620px;
-	min-height:650px;
-	position: absolute;
-	top: 600px;
-	left: 0;
-}
+#controls{
+	display:table;
+
+	}
+
 @media (max-width: 1024px) {
   #content > div {
     top: 0px;
@@ -150,22 +154,31 @@ p{
 
 input{border:0;}
 
-	button{
+button{/* VERSION TWO */
+		display:table-cell;
+		vertical-align:top;
+		width:50%;
+		height:50px;
 		padding:1.5% 2%;
-		margin: 0 1% 1% 0;
-		background-color:#666;
-		color:#ffffff;
+		/*margin: 0 1% 1% 0;*/
+		background-color:#fff;
+		color:#666;
 		border:0;
 		font-size:1rem;
 		font-weight:700;
+		border: 1px solid #ededed;
+		border-collapse:collapse;
+		margin-bottom:-1px;
+		margin-right:-1px;
 		}
 	button:hover{
-		background-color:#333;
+		background-color:#666;
+		border:0;
+		color:#fff;
 	}
 	button:focus, button:active{
 		outline:0;
 	}
-
 
 /* MEDIA QUERIES */
 
