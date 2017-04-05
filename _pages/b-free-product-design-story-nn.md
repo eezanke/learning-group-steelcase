@@ -1,6 +1,6 @@
 ---
 ID: 117151
-post_title: B-Free Product Design Story (No-Nav)
+post_title: B-Free Product Design Story
 author: Eric Zanke
 post_date: 2017-02-03 17:38:48
 post_excerpt: ""
