@@ -1,8 +1,6 @@
 ---
 ID: 117225
-post_title: >
-  B-Free PCON DEMO (Smartools Temp Demo)
-  (No Nav)
+post_title: B-Free PCON DEMO (Smartools Temp Demo)
 author: Eric Zanke
 post_date: 2017-02-06 16:40:51
 post_excerpt: ""
