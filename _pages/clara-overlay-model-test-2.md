@@ -51,6 +51,10 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_padding="0px|||" custom_padding_phone="0px|0px||0px" custom_padding_last_edited="on|phone"]
 
+<!DOCTYPE html>
+<html lang="">
+<head>
+
 <meta charset="UTF-8">
   <title>CLARA-OVERLAY-MODEL</title>
 
@@ -106,7 +110,6 @@ p{
   	}
 #player {
 	border: 1px solid #ededed;
-	margin-bottom:-2px;
 }
 #content > div {
 	position: absolute;
@@ -123,6 +126,9 @@ p{
 	display:table;
 
 	}
+
+
+
 
 @media (max-width: 1024px) {
   #content > div {
@@ -182,6 +188,15 @@ button{/* VERSION TWO */
 
 /* MEDIA QUERIES */
 
+@media (min-width: 1200px) {
+	button{width:48.6%!important;}
+}
+@media (max-width: 1024px) {
+	button{width:50%!important;
+	padding: 1% 2.2% 1% 2.2%;
+	}
+}
+
 @media screen and (min-width: 768px) { 
 		#content, #unique{
 			display:block!important;
@@ -194,6 +209,8 @@ button{/* VERSION TWO */
 	}
 
   </style>
+</head>
+<body>
 
 <!-- HTML -->
 <div id="wrapper">
@@ -210,41 +227,146 @@ button{/* VERSION TWO */
 	</div><!-- Model-->
 	<!-- BEGIN CONTENT -->
 	<div id="content">
-	  <div id="cognitive wellbeing">
+	  <div id="wellbeing">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Cognitive Wellbeing</h5>
-	    <p>This setting allows for collaboration in a more traditional way with a conventional posture.
-</p>
+	    <h5>Something about Designed for Wellbeing</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
 	      <li>Tea</li>
 	      <li>Milk</li>
 	    </ul>
 	  </div>
-	  <div id="presence">
+	  <div id="workplace">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Presence</h5>
-	    <p>This setting allows for digital information sharing with media:scape. 
-</p>
+	    <h5>Something about Designed for Workplace</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
 	      <li>Tea</li>
 	      <li>Milk</li>
 	    </ul>
 	  </div>
-	  <div id="quick collaboration">
+	  <div id="postures">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Quick Collaboration</h5>
-	    <p>The small cubes allow for others to quickly join the conversation at the same posture level, so there is no hierarchy of posture.
-</p>
+	    <h5>Something about Designed for Postures</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
 	      <li>Tea</li>
 	      <li>Milk</li>
 	    </ul>
 	  </div>
+	  <div id="antimicrobial">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+	    <h5>Something about Designed for Antimicrobial</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="collab">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+	    <h5>Something about Designed for Collaboration</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="cables">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+	    <h5>Something about Designed for Cables</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="sensing">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
+	    <h5>Something about Designed for Sensing</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
+	  </div>
+	  <div id="health">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+	    <h5>Something about Designed for Health</h5>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <ul class="dots">
+	      <li>Coffee</li>
+	      <li>Tea</li>
+	      <li>Milk</li>
+	    </ul>
 	  </div>
 	</div>
 	<!-- END CONTENT -->
+	
+</div><!-- WRAPPER -->
+
+
+
+
+
+ <!-- JS -->
+
+ <script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
+
+  <script>
+
+const ids = {
+  'Designed for Wellbeing': 'wellbeing',
+  'Workplace Wellbeing': 'workplace',
+  'Encouraging Health Postures': 'postures',
+  'Antimicrobial': 'antimicrobial',
+  'Collaboration Button': 'collab',
+  'Variety of Cable Management Options': 'cables',
+  'Obstruction Sensing': 'sensing',
+  'Health Conscious Environment': 'health',
+};
+
+const textDiv = document.getElementById('unique');
+const textEl = document.getElementById('text');
+
+var clara = claraplayer('clara-embed'); 
+clara.on('loaded', function() { console.log('Clara player is loaded and ready'); }); 
+clara.sceneIO.fetchAndUse("1613b124-6f9f-48ca-a2c5-52e40db046aa"); 
+clara.on('loaded', () => { 
+  const cameras = clara.scene.getAll({type: 'Camera', property: 'name'}); 
+  for(let id in cameras) { 
+    let button = document.createElement('button'); 
+    button.innerText = cameras[id]; 
+    button.onclick = (ev) => { 
+      var divs = document.getElementById('content').children;
+      for(var i = 0; i < divs.length; i++) {
+        var state = 'hidden';
+        if(divs[i].id === ids[cameras[id]])
+          state = 'visible';
+        divs[i].style.visibility = state;
+      }
+          
+      clara.player.animateCameraTo(id, 500); 
+      showTextForCamera(cameras[id]);
+    }
+    document.getElementById('controls').appendChild(button); 
+
+  } 
+});
+
+function showTextForCamera(name) {
+  textDiv.style.visibility = 'visible';
+  textEl.innerText = content[name] || '';
+}
+  </script>
+</body>
+</html>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
