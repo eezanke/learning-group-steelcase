@@ -306,28 +306,18 @@ button{/* VERSION TWO */
   <script>
 
 const ids = {
-  '9db43c80-4671-4c85-b481-17d1b4c92c3b': 'wellbeing',
-  '7774b92d-ba6b-44e8-b2e8-00a5e3c494d5': 'workplace',
-  'e665f0d5-60e9-492f-b67c-9ff95fe6fb01': 'postures',
-  'ea9d7ad8-0ebe-4dc7-892a-3b3d8ae5b66d': 'antimicrobial',
-  '8766ff74-8d88-466e-ba06-46b87c0b1a66': 'collab',
-  '64976508-875c-4d93-83f3-8335857ffe96': 'cables',
-  '3a9b7cf9-6000-450c-a11e-ab194636c00c': 'sensing',
-  '6f924f5c-80c7-4b0e-906e-48cb6f96747c': 'health',
+  'Designed for Wellbeing': 'wellbeing',
+  'Workplace Wellbeing': 'workplace',
+  'Encouraging Health Postures': 'postures',
+  'Antimicrobial': 'antimicrobial',
+  'Collaboration Button': 'collab',
+  'Variety of Cable Management Options': 'cables',
+  'Obstruction Sensing': 'sensing',
+  'Health Conscious Environment': 'health',
 };
 
-const cameraSelect = document.getElementById('cameraSelect');
-cameraSelect.onchange = function(ev) {
-   var id = ev.target.value;
-   var divs = document.getElementById('content').children;
-   for(var i = 0; i < divs.length; i++) {
-     var state = 'hidden';
-     if(divs[i].id === ids[ev.target.value])
-       state = 'visible';
-     divs[i].style.visibility = state;
-   }
-   clara.player.animateCameraTo(id, 500);
-}
+const textDiv = document.getElementById('unique');
+const textEl = document.getElementById('text');
 
 var clara = claraplayer('clara-embed'); 
 clara.on('loaded', function() { console.log('Clara player is loaded and ready'); }); 
@@ -335,8 +325,28 @@ clara.sceneIO.fetchAndUse("1613b124-6f9f-48ca-a2c5-52e40db046aa");
 clara.on('loaded', () => { 
   const cameras = clara.scene.getAll({type: 'Camera', property: 'name'}); 
   for(let id in cameras) { 
-    cameraSelect.options[cameraSelect.options.length] = new Option(cameras[id], id);
+    let button = document.createElement('button'); 
+    button.innerText = cameras[id]; 
+    button.onclick = (ev) => { 
+      var divs = document.getElementById('content').children;
+      for(var i = 0; i < divs.length; i++) {
+        var state = 'hidden';
+        if(divs[i].id === ids[cameras[id]])
+          state = 'visible';
+        divs[i].style.visibility = state;
+      }
+          
+      clara.player.animateCameraTo(id, 500); 
+      showTextForCamera(cameras[id]);
+    }
+    document.getElementById('controls').appendChild(button); 
+
   } 
+clara.player.hideTool('orbit');
+clara.player.hideTool('pan');
+clara.player.hideTool('zoom');
+clara.player.hideTool('home');
+clara.player.hideTool('fullscreen');
 });
 
 function showTextForCamera(name) {
