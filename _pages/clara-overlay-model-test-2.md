@@ -212,8 +212,9 @@ button{/* VERSION TWO */
 	<div id="content">
 	  <div id="cognitive wellbeing">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Cognitive Wellbeing</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <h5>Cognitive Wellbeing</h5>
+	    <p>This setting allows for collaboration in a more traditional way with a conventional posture.
+</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
 	      <li>Tea</li>
@@ -222,8 +223,9 @@ button{/* VERSION TWO */
 	  </div>
 	  <div id="presence">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Presence</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <h5>Presence</h5>
+	    <p>This setting allows for digital information sharing with media:scape. 
+</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
 	      <li>Tea</li>
@@ -232,8 +234,9 @@ button{/* VERSION TWO */
 	  </div>
 	  <div id="quick collaboration">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Quick Collaboration</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    <h5>Quick Collaboration</h5>
+	    <p>The small cubes allow for others to quickly join the conversation at the same posture level, so there is no hierarchy of posture.
+</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
 	      <li>Tea</li>
@@ -243,62 +246,5 @@ button{/* VERSION TWO */
 	  </div>
 	</div>
 	<!-- END CONTENT -->
-	
-</div><!-- WRAPPER -->
-
-
-
-
-
- <!-- JS -->
-
- <script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
-
-  <script>
-
-const ids = {
-  'Cognitive Wellbeing': 'cognitive wellbeing',
-  'Presence': 'presence',
-  'Quick Collaboration': 'quick collaboration',
-};
-
-const textDiv = document.getElementById('unique');
-const textEl = document.getElementById('text');
-
-var clara = claraplayer('clara-embed'); 
-clara.on('loaded', function() { console.log('Clara player is loaded and ready'); }); 
-clara.sceneIO.fetchAndUse("d6202138-a58f-461e-8741-e354b27272d9"); 
-clara.on('loaded', () => { 
-  const cameras = clara.scene.getAll({type: 'Camera', property: 'name'}); 
-  for(let id in cameras) { 
-    let button = document.createElement('button'); 
-    button.innerText = cameras[id]; 
-    button.onclick = (ev) => { 
-      var divs = document.getElementById('content').children;
-      for(var i = 0; i < divs.length; i++) {
-        var state = 'hidden';
-        if(divs[i].id === ids[cameras[id]])
-          state = 'visible';
-        divs[i].style.visibility = state;
-      }
-          
-      clara.player.animateCameraTo(id, 500); 
-      showTextForCamera(cameras[id]);
-    }
-    document.getElementById('controls').appendChild(button); 
-
-  } 
-clara.player.hideTool('orbit');
-clara.player.hideTool('pan');
-clara.player.hideTool('zoom');
-clara.player.hideTool('home');
-clara.player.hideTool('fullscreen');
-});
-
-function showTextForCamera(name) {
-  textDiv.style.visibility = 'visible';
-  textEl.innerText = content[name] || '';
-}
-  </script>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
