@@ -203,10 +203,10 @@ clara.on('loaded', () => {
   for(let id in cameras) { 
     cameraSelect.options[cameraSelect.options.length] = new Option(cameras[id], id);
   } 
-  clara.player.hideTool('Orbit');
-  clara.player.hideTool('Pan');
-  clara.player.hideTool('Zoom');
-  clara.player.hideTool('Home');
+  clara.player.hideTool('orbit');
+  clara.player.hideTool('pan');
+  clara.player.hideTool('zoom');
+  clara.player.hideTool('home');
 });
 
 
