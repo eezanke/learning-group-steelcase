@@ -49,14 +49,14 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_padding="0px|||" custom_padding_phone="0px|0px||0px" custom_padding_last_edited="on|phone"]
+[et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop"][et_pb_column type="4_4"][et_pb_text admin_label="Clara Button Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_padding="0px|||" custom_padding_phone="0px|0px||0px" custom_padding_last_edited="on|phone"]
 
 <meta charset="UTF-8">
   <title>CLARA-OVERLAY-MODEL</title>
 
 <!--FONTS-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CDroid+Serif:400,700" media="all">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+     	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CDroid+Serif:400,700" media="all">
+     	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
   <!-- CSS -->
 
@@ -197,107 +197,100 @@ button{/* VERSION TWO */
 
 <!-- HTML -->
 <div id="wrapper">
-
-	<div id="Model">
+<div id="Model">
 	<!-- MODEL -->
-		<div id="player">
-		  <div id="clara-embed"></div>
-		</div>
-
-		<!-- BEGIN BUTTONS -->
-		<div id="controls">
-		</div>
-	</div><!-- Model-->
+<div id="player">
+<div id="clara-embed"></div>
+</div>
+<!-- BEGIN BUTTONS -->
+<div id="controls"></div>
+</div>
+<!-- Model-->
 	<!-- BEGIN CONTENT -->
-	<div id="content">
-	  <div id="wellbeing">
+<div id="content">
+<div id="wellbeing">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Wellbeing</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="workplace">
+<h5>Something about Designed for Wellbeing</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="workplace">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Workplace</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="postures">
+<h5>Something about Designed for Workplace</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="postures">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Postures</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="antimicrobial">
+<h5>Something about Designed for Postures</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="antimicrobial">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Antimicrobial</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="collab">
+<h5>Something about Designed for Antimicrobial</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="collab">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Collaboration</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="cables">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
-	    <h5>Something about Designed for Cables</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="sensing">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
-	    <h5>Something about Designed for Sensing</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="health">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
-	    <h5>Something about Designed for Health</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	</div>
-	<!-- END CONTENT -->
-	
-</div><!-- WRAPPER -->
-
-
-
-
+<h5>Something about Designed for Collaboration</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="cables">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+<h5>Something about Designed for Cables</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="sensing">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+<h5>Something about Designed for Sensing</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+<div id="health">
+	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+<h5>Something about Designed for Health</h5>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<ul class="dots">
+ 	<li>Coffee</li>
+ 	<li>Tea</li>
+ 	<li>Milk</li>
+</ul>
+</div>
+</div>
+<!-- END CONTENT --></div>
+<!-- WRAPPER -->
 
  <!-- JS -->
 
@@ -354,5 +347,161 @@ function showTextForCamera(name) {
   textEl.innerText = content[name] || '';
 }
   </script>
+
+[/et_pb_text][et_pb_text admin_label="Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<meta charset="utf-8">
+	<title>Clara Dropdown Model</title>
+	
+<style type="text/css">
+	
+#content > div {
+  position: absolute;
+  top: 0px;
+  left: 650px;
+  visibility: hidden;
+}
+
+@media (max-width: 700px) {
+  #content > div {
+    top: 500px;
+    left: 0px;
+  }
+}
+
+.italic {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.normal {
+  font-style: normal;
+  font-size: 12px;
+}
+
+.oblique {
+  font-style: oblique;
+  font-size: 22px;
+}
+	
+</style>
+
+
+
+
+<div id="player" style="width: 600px; height: 400px;">
+  <div id="clara-embed" style="width: 600px; height: 400px;"></div>
+</div>
+<div id="controls">
+  <select id="cameraSelect">
+  </select>
+</div>
+
+<div id="content">
+  <div id="wellbeing" class="italic">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="workplace" class="normal">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="postures" class="oblique">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="antimicrobial" class="italic">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="collab" class="normal">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="cables" class="oblique">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="sensing" class="italic">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <div id="health" class="normal">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+</div>
+  
+<script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
+
+<script>
+const ids = {
+  '9db43c80-4671-4c85-b481-17d1b4c92c3b': 'wellbeing',
+  '7774b92d-ba6b-44e8-b2e8-00a5e3c494d5': 'workplace',
+  'e665f0d5-60e9-492f-b67c-9ff95fe6fb01': 'postures',
+  'ea9d7ad8-0ebe-4dc7-892a-3b3d8ae5b66d': 'antimicrobial',
+  '8766ff74-8d88-466e-ba06-46b87c0b1a66': 'collab',
+  '64976508-875c-4d93-83f3-8335857ffe96': 'cables',
+  '3a9b7cf9-6000-450c-a11e-ab194636c00c': 'sensing',
+  '6f924f5c-80c7-4b0e-906e-48cb6f96747c': 'health',
+};
+
+const cameraSelect = document.getElementById('cameraSelect');
+cameraSelect.onchange = function(ev) {
+   var id = ev.target.value;
+   var divs = document.getElementById('content').children;
+   for(var i = 0; i < divs.length; i++) {
+     var state = 'hidden';
+     if(divs[i].id === ids[ev.target.value])
+       state = 'visible';
+     divs[i].style.visibility = state;
+   }
+   clara.player.animateCameraTo(id, 500);
+}
+
+var clara = claraplayer('clara-embed'); 
+clara.on('loaded', function() { console.log('Clara player is loaded and ready'); }); 
+clara.sceneIO.fetchAndUse("1613b124-6f9f-48ca-a2c5-52e40db046aa"); 
+clara.on('loaded', () => { 
+  const cameras = clara.scene.getAll({type: 'Camera', property: 'name'}); 
+  for(let id in cameras) { 
+    cameraSelect.options[cameraSelect.options.length] = new Option(cameras[id], id);
+  } 
+});
+
+
+</script>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
