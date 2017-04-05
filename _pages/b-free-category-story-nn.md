@@ -1,6 +1,6 @@
 ---
 ID: 117367
-post_title: B-Free Category Story (No-Nav)
+post_title: B-Free Category Story
 author: Eric Zanke
 post_date: 2017-02-13 13:45:39
 post_excerpt: ""
