@@ -51,7 +51,10 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
 	<title>Clara Dropdown Model</title>
 	
 <style type="text/css">
@@ -87,9 +90,9 @@ eg-lightbox-iframe:
 	
 </style>
 
+</head>
 
-
-
+<body>
 <div id="player" style="width: 600px; height: 400px;">
   <div id="clara-embed" style="width: 600px; height: 400px;"></div>
 </div>
@@ -100,7 +103,7 @@ eg-lightbox-iframe:
 
 <div id="content">
   <div id="wellbeing" class="italic">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -108,7 +111,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="workplace" class="normal">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -116,7 +119,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="postures" class="oblique">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -124,7 +127,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="antimicrobial" class="italic">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -132,7 +135,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="collab" class="normal">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -140,7 +143,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="cables" class="oblique">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />     
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -148,7 +151,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="sensing" class="italic">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />    
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -156,7 +159,7 @@ eg-lightbox-iframe:
     </ul>
   </div>
   <div id="health" class="normal">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />     
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -200,9 +203,16 @@ clara.on('loaded', () => {
   for(let id in cameras) { 
     cameraSelect.options[cameraSelect.options.length] = new Option(cameras[id], id);
   } 
+  clara.player.hideTool('Orbit');
+  clara.player.hideTool('Pan');
+  clara.player.hideTool('Zoom');
+  clara.player.hideTool('Home');
 });
 
 
 </script>
+
+</body>
+</html>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
