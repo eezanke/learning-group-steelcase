@@ -1,6 +1,6 @@
 ---
 ID: 117156
-post_title: B-Free Competitive Comparison (No-Nav)
+post_title: B-Free Competitive Comparison
 author: Eric Zanke
 post_date: 2017-02-03 17:43:18
 post_excerpt: ""
