@@ -1,6 +1,6 @@
 ---
 ID: 119690
-post_title: CLARA-OVERLAY-MODEL-TEST
+post_title: 'B-Free Exploration and Overview: Collaborate'
 author: Bryan Cote
 post_date: 2017-04-05 10:30:04
 post_excerpt: ""
@@ -8,6 +8,46 @@ layout: page
 permalink: >
   http://newlearning.steelcase.com/product/clara-overlay-model-test-2/
 published: true
+eg_sources_html5_mp4:
+  - ""
+eg_sources_html5_ogv:
+  - ""
+eg_sources_html5_webm:
+  - ""
+eg_sources_youtube:
+  - ""
+eg_sources_vimeo:
+  - ""
+eg_sources_wistia:
+  - ""
+eg_sources_image:
+  - ""
+eg_sources_iframe:
+  - ""
+eg_sources_soundcloud:
+  - ""
+eg_vimeo_ratio:
+  - "0"
+eg_youtube_ratio:
+  - "0"
+eg_wistia_ratio:
+  - "0"
+eg_html5_ratio:
+  - "0"
+eg_soundcloud_ratio:
+  - "0"
+eg_settings_custom_meta_skin:
+  - ""
+eg_settings_custom_meta_element:
+  - ""
+eg_settings_custom_meta_setting:
+  - ""
+eg_settings_custom_meta_style:
+  - ""
+eg-my-custom-url:
+  - ""
+eg-lightbox-iframe:
+  - ""
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_padding="0px|||" custom_padding_phone="0px|0px||0px" custom_padding_last_edited="on|phone"]
 
@@ -170,9 +210,9 @@ button{/* VERSION TWO */
 	</div><!-- Model-->
 	<!-- BEGIN CONTENT -->
 	<div id="content">
-	  <div id="wellbeing">
+	  <div id="cognitive wellbeing">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Wellbeing</h5>
+	    <h5>Something about Cognitive Wellbeing</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
@@ -180,9 +220,9 @@ button{/* VERSION TWO */
 	      <li>Milk</li>
 	    </ul>
 	  </div>
-	  <div id="workplace">
+	  <div id="presence">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Workplace</h5>
+	    <h5>Something about Presence</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
@@ -190,9 +230,9 @@ button{/* VERSION TWO */
 	      <li>Milk</li>
 	    </ul>
 	  </div>
-	  <div id="postures">
+	  <div id="quick collaboration">
 	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Postures</h5>
+	    <h5>Something about Quick Collaboration</h5>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    <ul class="dots">
 	      <li>Coffee</li>
@@ -200,56 +240,7 @@ button{/* VERSION TWO */
 	      <li>Milk</li>
 	    </ul>
 	  </div>
-	  <div id="antimicrobial">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Antimicrobial</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="collab">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-	    <h5>Something about Designed for Collaboration</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="cables">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
-	    <h5>Something about Designed for Cables</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="sensing">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
-	    <h5>Something about Designed for Sensing</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
-	  <div id="health">
-	    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
-	    <h5>Something about Designed for Health</h5>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    <ul class="dots">
-	      <li>Coffee</li>
-	      <li>Tea</li>
-	      <li>Milk</li>
-	    </ul>
-	  </div>
+	 
 	</div>
 	<!-- END CONTENT -->
 	
@@ -266,14 +257,9 @@ button{/* VERSION TWO */
   <script>
 
 const ids = {
-  'Designed for Wellbeing': 'wellbeing',
-  'Workplace Wellbeing': 'workplace',
-  'Encouraging Health Postures': 'postures',
-  'Antimicrobial': 'antimicrobial',
-  'Collaboration Button': 'collab',
-  'Variety of Cable Management Options': 'cables',
-  'Obstruction Sensing': 'sensing',
-  'Health Conscious Environment': 'health',
+  'Cognitive Wellbeing': 'cognitive wellbeing',
+  'Presence': 'presence',
+  'Quick Collaboration': 'quick collaboration',
 };
 
 const textDiv = document.getElementById('unique');
@@ -281,7 +267,7 @@ const textEl = document.getElementById('text');
 
 var clara = claraplayer('clara-embed'); 
 clara.on('loaded', function() { console.log('Clara player is loaded and ready'); }); 
-clara.sceneIO.fetchAndUse("1613b124-6f9f-48ca-a2c5-52e40db046aa"); 
+clara.sceneIO.fetchAndUse("d6202138-a58f-461e-8741-e354b27272d9"); 
 clara.on('loaded', () => { 
   const cameras = clara.scene.getAll({type: 'Camera', property: 'name'}); 
   for(let id in cameras) { 
