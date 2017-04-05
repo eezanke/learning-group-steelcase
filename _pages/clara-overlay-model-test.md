@@ -207,6 +207,8 @@ clara.on('loaded', () => {
   clara.player.hideTool('pan');
   clara.player.hideTool('zoom');
   clara.player.hideTool('home');
+  clara.player.hideTool('fullscreen');
+  clara.player.hideTool('vr mode');
 });
 
 
