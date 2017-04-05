@@ -240,7 +240,7 @@ button{/* VERSION TWO */
 	      <li>Milk</li>
 	    </ul>
 	  </div>
-	 
+	  </div>
 	</div>
 	<!-- END CONTENT -->
 	
