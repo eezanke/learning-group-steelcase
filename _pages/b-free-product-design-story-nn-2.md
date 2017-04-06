@@ -57,6 +57,6 @@ In this activity, you'll explore client scenarios and be challenged to select a 
 
 [/et_pb_text][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-[scormcloud.training:58e65d6357b5b]
+[scormcloud.training:58e65db4862ec]
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
