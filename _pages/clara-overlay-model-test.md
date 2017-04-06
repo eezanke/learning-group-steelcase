@@ -51,34 +51,14 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-
 Clara Dropdown Model
 
 <style type="text/css">
-<p>#content > div {<br />
-  position: absolute;<br />
-  top: 0px;<br />
-  left: 650px;<br />
-  visibility: hidden;<br />
-}</p>
-<p>@media (max-width: 700px) {<br />
-  #content > div {<br />
-    top: 500px;<br />
-    left: 0px;<br />
-  }<br />
-}</p>
-<p>.italic {<br />
-  font-style: italic;<br />
-  font-size: 18px;<br />
-}</p>
-<p>.normal {<br />
-  font-style: normal;<br />
-  font-size: 12px;<br />
-}</p>
-<p>.oblique {<br />
-  font-style: oblique;<br />
-  font-size: 22px;<br />
-}</p>
+<p>#content > div {<br />  position: absolute;<br />  top: 0px;<br />  left: 650px;<br />  visibility: hidden;<br />}</p>
+<p>@media (max-width: 700px) {<br />  #content > div {<br />    top: 500px;<br />    left: 0px;<br />  }<br />}</p>
+<p>.italic {<br />  font-style: italic;<br />  font-size: 18px;<br />}</p>
+<p>.normal {<br />  font-style: normal;<br />  font-size: 12px;<br />}</p>
+<p>.oblique {<br />  font-style: oblique;<br />  font-size: 22px;<br />}</p>
 </style>
 
 &nbsp;
@@ -87,56 +67,72 @@ Clara Dropdown Model
 <div id="player" style="width: 600px; height: 400px;"></div>
 <div id="controls"></div>
 <div id="content">
-<div id="wellbeing" class="italic"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="wellbeing" class="italic">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="workplace" class="normal"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="workplace" class="normal">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="postures" class="oblique"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="postures" class="oblique">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="antimicrobial" class="italic"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="antimicrobial" class="italic">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="collab" class="normal"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="collab" class="normal">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="cables" class="oblique"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="cables" class="oblique">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="sensing" class="italic"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="sensing" class="italic">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
  	<li>Milk</li>
 </ul>
 </div>
-<div id="health" class="normal"><img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
+<div id="health" class="normal">
+
+<img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" />
 <ul>
  	<li>Coffee</li>
  	<li>Tea</li>
@@ -180,8 +176,8 @@ cameraSelect.onchange = function(ev) {
 
 &nbsp;
 
-[/et_pb_text][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-[scormcloud.training:58e64eda55ccb]
+[scormcloud.training:58e64f0555699]
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
