@@ -49,7 +49,7 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-<h1>media:scape with HD Videoconferencing</h1>
+<h1>Course Code: SAL545</h1>
 This training will help you to understand videoconferencing systems, how media:scape hosts them, and most importantly, will teach you how to share the benefits of using media:scape with HD videoconferencing with your customers.
 
 [scormcloud.training:58e7cb4a34380]
