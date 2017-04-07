@@ -109,8 +109,9 @@ html, body {
 }
 .interior {
   display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  /*vertical-align: middle;
+  text-align: center;*/
+  padding-top:1rem;
 }
 body {
   font:14px/1.5 sans-serif;
