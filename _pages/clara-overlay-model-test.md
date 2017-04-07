@@ -49,12 +49,7 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-
-<h1>Modal Window-Clara Dropdown Model</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-[/et_pb_text][et_pb_text admin_label="Modal Window-Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Modal Window-Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <meta charset="utf-8">
 	<title>Clara Dropdown Model</title>
@@ -322,5 +317,10 @@ clara.on('loaded', () => {
 
 
 </script>
+
+[/et_pb_text][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<h1>Modal Window-Clara Dropdown Model</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
