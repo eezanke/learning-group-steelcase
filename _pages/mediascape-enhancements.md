@@ -49,7 +49,8 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_code admin_label="Code"]&lt;h1&gt;Course Code: SAL545&lt;/h1&gt;
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h1>Course Code: SAL545</h1>
 This training will help you to understand videoconferencing systems, how media:scape hosts them, and most importantly, will teach you how to share the benefits of using media:scape with HD videoconferencing with your customers.
 
-[scormcloud.training:58e7cb4a34380][/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section]
+[/et_pb_text][et_pb_code admin_label="Code"]&lt;h1&gt;Course Code: SAL545&lt;/h1&gt; This training will help you to understand videoconferencing systems, how media:scape hosts them, and most importantly, will teach you how to share the benefits of using media:scape with HD videoconferencing with your customers. [scormcloud.training:58e7cb4a34380][/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section]
