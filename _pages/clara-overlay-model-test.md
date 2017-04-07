@@ -49,18 +49,20 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Modal Window-Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <meta charset="utf-8">
 	<title>Clara Dropdown Model</title>
 	
 <style type="text/css">
-	
+
+
 #content > div {
   position: absolute;
   top: 0px;
   left: 650px;
   visibility: hidden;
+  padding-top:2rem;
 }
 
 @media (max-width: 700px) {
@@ -69,6 +71,7 @@ eg-lightbox-iframe:
     left: 0px;
   }
 }
+
 
 .italic {
   font-style: italic;
@@ -84,86 +87,190 @@ eg-lightbox-iframe:
   font-style: oblique;
   font-size: 22px;
 }
+
+/* MODAL WINDOW STYLES */
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+html, body {
+  height: 100%;
+}
+.container {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.interior {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+body {
+  font:14px/1.5 sans-serif;
+  padding: 2rem;
+  /*background-color: #ffffff;*/
+}
+.btn {
+  background-color: #333;
+  padding: 1em 3em;
+  border-radius: 3px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.modal-window {
+  position:fixed;
+  background-color: rgba(0,0,0,0.5);
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:999;
+  opacity:0;
+  pointer-events:none;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+}
+.modal-window:target {
+  opacity:1;
+  pointer-events:auto;
+}
+.modal-window>div {
+  max-width:1024px;
+  position:relative;
+  margin:10% auto;
+  padding:2rem;
+  background:#fff;
+  color:#444;
+}
+.modal-window header {
+  font-weight:bold;
+}
+.modal-close {
+  display:block;
+  /*padding:.25%;
+  background-color: rgba(255,255,255,1);
+  border-radius:50%;*/
+  color:#666666;
+  line-height:50px;
+  font-size:80%;
+  position:absolute;
+  right:0;
+  text-align:center;
+  top:0;
+  width:70px;
+  text-decoration:none;
+  z-index:1000;
+}
+.modal-close:hover {
+  color:#000;
+  background-color: rgba(255,255,255,1);
+}
+.modal-window .h-text{
+  width:50%!important;
+  }
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
 	
 </style>
 
 
 
+<div class="container">
+    <div class="interior">
+      <a class="btn" href="#open-modal">Open</a>
+    </div>
+  <!--</div>-->
+  <div id="open-modal" class="modal-window">
+    <div>
+      <a href="#modal-close" title="Close" class="modal-close">Close</a>
+       <div class="h-text">
+         <h1>Clara Dropdown Model</h1>
+         <div><p>Nam tempor turpis sapien, a scelerisque purus pretium vitae. Nunc arcu nulla, pulvinar a ipsum id, sodales consequat enim. Aenean dapibus cursus accumsan.</p>
+       </div>
+    </div>
+      <div>
+        <div id="player" style="width: 600px; height: 400px;">
+          <div id="clara-embed" style="width: 600px; height: 400px;"></div>
+        </div>
+        <div id="controls">
+          <select id="cameraSelect">
+          </select>
+        </div>
 
-<div id="player" style="width: 600px; height: 400px;">
-  <div id="clara-embed" style="width: 600px; height: 400px;"></div>
-</div>
-<div id="controls">
-  <select id="cameraSelect">
-  </select>
-</div>
-
-<div id="content">
-  <div id="wellbeing" class="italic">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
+        <div id="content">
+          <div id="wellbeing" class="italic">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="workplace" class="normal">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="postures" class="oblique">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="antimicrobial" class="italic">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="collab" class="normal">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="cables" class="oblique">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="sensing" class="italic">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+          <div id="health" class="normal">
+            <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+        </div><!--CLARA CONTENT-->
+    </div>
   </div>
-  <div id="workplace" class="normal">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-  <div id="postures" class="oblique">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-  <div id="antimicrobial" class="italic">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-  <div id="collab" class="normal">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-  <div id="cables" class="oblique">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-  <div id="sensing" class="italic">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">    
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-  <div id="health" class="normal">
-    <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">     
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-  </div>
-</div>
+</div><!--END MODAL WINDOW FRAMEWORK-->
   
 <script src="https://steelcase.clara.io/js/claraplayer.min.js"></script> 
 
