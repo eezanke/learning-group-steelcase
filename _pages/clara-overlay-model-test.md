@@ -124,6 +124,7 @@ body {
   border-radius: 3px;
   color: #ffffff;
   text-decoration: none;
+  z-index:10000;
 }
 .modal-window {
   position:fixed;
