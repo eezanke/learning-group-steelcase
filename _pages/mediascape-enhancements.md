@@ -1,6 +1,6 @@
 ---
 ID: 119267
-post_title: media:scape Enhancements
+post_title: media:scape with HD Videoconferencing
 author: Bryan Cote
 post_date: 2017-02-28 23:15:09
 post_excerpt: ""
