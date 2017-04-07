@@ -57,8 +57,7 @@ eg-lightbox-iframe:
 [/et_pb_text][et_pb_text admin_label="Modal Window-Clara Dropdown Model" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <meta charset="utf-8">
-	<title>Clara Dropdown Model</title>
-	
+<title>Clara Dropdown Model</title>
 <style type="text/css">
 
 
@@ -182,7 +181,6 @@ body {
   font-size: 150%;
   margin: 0 0 15px;
 }
-	
 </style>
 
 
@@ -201,14 +199,14 @@ body {
        </div>
     </div>
       <div>
-        <div id="player" style="width: 600px; height: 400px;">
-          <div id="clara-embed" style="width: 600px; height: 400px;"></div>
-        </div>
         <div id="controls">
           <select id="cameraSelect">
           </select>
         </div>
-
+        <div id="player" style="width: 600px; height: 400px;">
+          <div id="clara-embed" style="width: 600px; height: 400px;"></div>
+        </div>
+        
         <div id="content">
           <div id="wellbeing" class="italic">
             <img src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg">
