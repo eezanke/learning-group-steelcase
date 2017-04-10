@@ -187,7 +187,7 @@ body {
     &lt;div class=&quot;interior&quot;&gt;
       &lt;a class=&quot;btn&quot; href=&quot;#open-modal&quot;&gt;Open&lt;/a&gt;
     &lt;/div&gt;
-  &lt;!--&lt;/div&gt;--&gt;
+  &lt;/div&gt;
   &lt;div id=&quot;open-modal&quot; class=&quot;modal-window&quot;&gt;
     &lt;div&gt;
       &lt;a href=&quot;#modal-close&quot; title=&quot;Close&quot; class=&quot;modal-close&quot;&gt;Close&lt;/a&gt;
