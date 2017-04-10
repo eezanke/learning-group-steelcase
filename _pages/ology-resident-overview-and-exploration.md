@@ -312,7 +312,7 @@ clara.on(&#x27;loaded&#x27;, () =&gt; {
   } 
   clara.player.hideTool(&#x27;home&#x27;);
   clara.player.hideTool(&#x27;pan&#x27;);
-  clara.player.hideTool(&#x27;zome&#x27;);
+  clara.player.hideTool(&#x27;zoom&#x27;);
   clara.player.hideTool(&#x27;orbit&#x27;);
 });
 
