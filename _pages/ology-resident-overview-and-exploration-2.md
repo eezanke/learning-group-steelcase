@@ -1,6 +1,6 @@
 ---
 ID: 119800
-post_title: 'Ology Resident: Overview and Exploration'
+post_title: 'Ology Resident: Overview and Exploration COPY'
 author: Bryan Cote
 post_date: 2017-04-10 18:45:49
 post_excerpt: ""
@@ -8,6 +8,46 @@ layout: page
 permalink: >
   http://newlearning.steelcase.com/product/ology-resident-overview-and-exploration-2/
 published: true
+eg_sources_html5_mp4:
+  - ""
+eg_sources_html5_ogv:
+  - ""
+eg_sources_html5_webm:
+  - ""
+eg_sources_youtube:
+  - ""
+eg_sources_vimeo:
+  - ""
+eg_sources_wistia:
+  - ""
+eg_sources_image:
+  - ""
+eg_sources_iframe:
+  - ""
+eg_sources_soundcloud:
+  - ""
+eg_vimeo_ratio:
+  - "0"
+eg_youtube_ratio:
+  - "0"
+eg_wistia_ratio:
+  - "0"
+eg_html5_ratio:
+  - "0"
+eg_soundcloud_ratio:
+  - "0"
+eg_settings_custom_meta_skin:
+  - ""
+eg_settings_custom_meta_element:
+  - ""
+eg_settings_custom_meta_setting:
+  - ""
+eg_settings_custom_meta_style:
+  - ""
+eg-my-custom-url:
+  - ""
+eg-lightbox-iframe:
+  - ""
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="off" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" parallax_1="off" parallax_method_1="off" padding_right_1="0px" padding_left_1="0px" padding_1_last_edited="on|phone" column_padding_mobile="off" custom_padding="|||0px" custom_padding_last_edited="on|desktop" custom_margin="50px|||"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
