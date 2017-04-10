@@ -190,7 +190,7 @@ body {
   &lt;/div&gt;
   &lt;div id=&quot;open-modal&quot; class=&quot;modal-window&quot;&gt;
     &lt;div&gt;
-      &lt;a href=&quot;#modal-close&quot; title=&quot;Close&quot; class=&quot;modal-close&quot;&gt;Close 3D Scene&lt;/a&gt;
+      &lt;a href=&quot;#modal-close&quot; title=&quot;Close&quot; class=&quot;modal-close&quot;&gt;Close Scene&lt;/a&gt;
        &lt;div class=&quot;h-text&quot;&gt;
          &lt;h1&gt;Ology Resident&lt;/h1&gt;
          &lt;div&gt;&lt;p&gt;Ology height-adjustable desks support the physiology and biology of workers to make the workplace a more health-conscious environment.&lt;/p&gt;
