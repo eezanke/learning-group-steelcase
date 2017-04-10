@@ -305,7 +305,7 @@ cameraSelect.onchange = function(ev) {
 
 var clara = claraplayer(&#x27;clara-embed&#x27;); 
 clara.on(&#x27;loaded&#x27;, function() { console.log(&#x27;Clara player is loaded and ready&#x27;); }); 
-clara.sceneIO.fetchAndUse(&quot;1613b124-6f9f-48ca-a2c5-52e40db046aa&quot;); 
+clara.sceneIO.fetchAndUse(&quot;6b502d06-dc68-4bb8-9eaa-51c50f7a70ba&quot;); 
 clara.on(&#x27;loaded&#x27;, () =&gt; { 
   const cameras = clara.scene.getAll({type: &#x27;Camera&#x27;, property: &#x27;name&#x27;}); 
   for(let id in cameras) { 
