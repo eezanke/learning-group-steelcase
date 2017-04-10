@@ -194,7 +194,7 @@ body {
        &lt;div class=&quot;h-text&quot;&gt;
          &lt;h1&gt;Ology Resident&lt;/h1&gt;
          &lt;div&gt;&lt;p&gt;Ology height-adjustable desks support the physiology and biology of workers to make the workplace a more health-conscious environment.&lt;/p&gt;&lt;br&gt;
-&lt;strong&gt;Select a topic using the drop down menu to learn more.&lt;/strong&gt;
+&lt;strong&gt;Use the Drop Down Menu to Learn More About Ology&lt;/strong&gt;
        &lt;/div&gt;
     &lt;/div&gt;
       &lt;div&gt;
