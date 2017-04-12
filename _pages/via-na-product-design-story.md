@@ -1,12 +1,12 @@
 ---
-ID: 117151
-post_title: B-Free Product Design Story
+ID: 119812
+post_title: VIA-NA Product Design Story
 author: Eric Zanke
-post_date: 2017-02-03 17:38:48
+post_date: 2017-04-12 14:17:24
 post_excerpt: ""
 layout: page
 permalink: >
-  http://newlearning.steelcase.com/product/b-free-product-design-story-nn/
+  http://newlearning.steelcase.com/product/via-na-product-design-story/
 published: true
 eg_sources_html5_mp4:
   - ""
@@ -51,14 +51,11 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<!--<a style="color: #666666;" href="http://newlearning.steelcase.com/product/b-free/">&lt; Back To Grid</a>-->
-<h1>B-Free Product Design Story</h1>
+<h1>VIA Product Design Story</h1>
 Watch this 2 minute video to see how our Research and Insights led to the design of B-FREE and how it solves for Workplace Challenges and supports the Resilient Workplace.
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video (as Text)" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<video autoplay="autoplay" controls="controls" width="640" height="360">
-<source type="video/mp4" src="http://newlearning.steelcase.com/product/wp-content/uploads/B-Free-Connect-Collaborate-Concentrate.mp4" />
-</video>
+<iframe src="//embed.widencdn.net/video/steelcase/3ksao1mhxe?u=kaetkh" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allowtransparency="true" scrolling="no" ></iframe>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
