@@ -1,12 +1,12 @@
 ---
-ID: 117416
-post_title: B-Free Model Sales Presentation
+ID: 119822
+post_title: Migration Model Sales Presentation
 author: Eric Zanke
-post_date: 2017-02-13 18:23:19
+post_date: 2017-04-12 17:11:29
 post_excerpt: ""
 layout: page
 permalink: >
-  http://newlearning.steelcase.com/product/b-free-model-sales-presentation-nn/
+  http://newlearning.steelcase.com/product/migration-model-sales-presentation-nn/
 published: true
 eg_sources_html5_mp4:
   - ""
@@ -51,14 +51,11 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<!--<a class="spacer" style="color: #666666;" href="http://newlearning.steelcase.com/product/project/b-free/">&lt; Back To Grid</a>-->
-<h1>B-Free Model Sales Presentation</h1>
-B-Free is a full range of modular furniture aimed to design multiple and easily reconfigurable settings. B-Free creates focal points where people can connect, collaborate and concentrate.
+<h1>Migration Model Sales Presentation</h1>
+<p>Learn how to deliver an effective product presentation in this video demonstration.</p>
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video as Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<video controls="" autoplay="">
-<source type="video/mp4" src="http://newlearning.steelcase.com/product/wp-content/uploads/B-Free-Model-Sales-Presentation.mp4">
-</video>
+<iframe src="//embed.widencdn.net/video/steelcase/tlchtruscv?u=kaetkh" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allowtransparency="true" scrolling="no" ></iframe>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
