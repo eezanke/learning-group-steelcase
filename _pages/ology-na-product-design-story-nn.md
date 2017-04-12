@@ -1,6 +1,6 @@
 ---
 ID: 119825
-post_title: Ology NA Product Design Story
+post_title: Ology-NA Product Design Story
 author: Eric Zanke
 post_date: 2017-04-12 17:40:22
 post_excerpt: ""
