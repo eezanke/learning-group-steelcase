@@ -1,12 +1,12 @@
 ---
-ID: 119822
-post_title: Migration Model Sales Presentation
+ID: 119827
+post_title: Ology Model Sales Presentation
 author: Eric Zanke
-post_date: 2017-04-12 17:11:29
+post_date: 2017-04-12 17:44:58
 post_excerpt: ""
 layout: page
 permalink: >
-  http://newlearning.steelcase.com/product/migration-model-sales-presentation-nn/
+  http://newlearning.steelcase.com/product/ology-model-sales-presentation-nn/
 published: true
 eg_sources_html5_mp4:
   - ""
@@ -51,7 +51,7 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<h1>Migration Model Sales Presentation</h1>
+<h1>Ology Model Sales Presentation</h1>
 <p>Learn how to deliver an effective product presentation in this video demonstration.</p>
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video as Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
