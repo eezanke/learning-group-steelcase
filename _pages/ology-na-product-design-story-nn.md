@@ -1,12 +1,12 @@
 ---
-ID: 119812
-post_title: VIA-NA Product Design Story
+ID: 119825
+post_title: Ology NA Product Design Story
 author: Eric Zanke
-post_date: 2017-04-12 14:17:24
+post_date: 2017-04-12 17:40:22
 post_excerpt: ""
 layout: page
 permalink: >
-  http://newlearning.steelcase.com/product/via-na-product-design-story/
+  http://newlearning.steelcase.com/product/ology-na-product-design-story-nn/
 published: true
 eg_sources_html5_mp4:
   - ""
@@ -51,11 +51,11 @@ eg-lightbox-iframe:
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<h1>VIA Product Design Story</h1>
-<p>This video tells the story of the research, insights and design inspiration for this product.<?p>
+<h1>Ology Product Design Story</h1>
+<p>This video tells the story of the research, insights and design inspiration for this product.</p>
 
 [/et_pb_text][et_pb_text admin_label="HTML 5 Video (as Text)" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<iframe src="//embed.widencdn.net/video/steelcase/3ksao1mhxe?u=kaetkh" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" scrolling="no"></iframe>
+<iframe src="//embed.widencdn.net/video/steelcase/ux6lkm32jg?u=kaetkh" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allowtransparency="true" scrolling="no" ></iframe>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
