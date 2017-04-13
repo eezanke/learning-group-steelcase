@@ -6,7 +6,7 @@ post_date: 2017-04-06 15:17:01
 post_excerpt: ""
 layout: page
 permalink: >
-  http://newlearning.steelcase.com/product/b-free-product-design-story-nn-2/
+  http://newlearning.steelcase.com/product/b-free-client-scenarios-am-nn/
 published: true
 eg_sources_html5_mp4:
   - ""
