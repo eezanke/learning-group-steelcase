@@ -49,11 +49,10 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[et_pb_section bb_built="1" admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<!--<a style="color: #666666;" href="http://newlearning.steelcase.com/product/b-free/">&lt; Back To Grid</a>-->
 <h1>B-Free Client Scenarios (Americas)</h1>
-In this activity, you'll explore client scenarios and be challenged to select a setting that would best fit the client’s needs.
+<p>In this activity, you'll explore client scenarios and be challenged to select a setting that would best fit the client’s needs.</p>
 
 [/et_pb_text][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
