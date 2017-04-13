@@ -49,8 +49,6 @@ eg-my-custom-url:
 eg-lightbox-iframe:
   - ""
 ---
-[et_pb_section bb_built="1" admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Code" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-
 <meta charset="utf-8">
 	<title>Clara Dropdown Model</title>
 	
@@ -327,5 +325,3 @@ clara.on('loaded', () => {
 
 
 </script>
-
-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
